@@ -3622,6 +3622,7 @@ nav {
         border-radius: 12px;
         display: inline-block;
         height: 60px;
+        cursor: pointer;
         padding: 0 100px 0 24px;
         font-weight: 600;
         font-size: 15px;
@@ -3656,6 +3657,7 @@ nav {
     padding: 0 100px 0 24px;
     font-weight: 600;
     font-size: 15px;
+    cursor: pointer;
     line-height: 56px;
     background: url("/assets/img/link_orange_icon.svg") no-repeat calc(100% - 24px) 50%;
     transition: all 0.15s; }
@@ -3745,6 +3747,7 @@ footer {
             padding: 0 100px 0 24px;
             font-weight: 600;
             font-size: 15px;
+            cursor: pointer;
             line-height: 56px;
             background: url("/assets/img/link_orange_icon.svg") no-repeat calc(100% - 24px) 50%;
             transition: 0.15s; }
@@ -3755,10 +3758,14 @@ footer {
               text-decoration: none;
               color: #fff; }
         footer .footer .first-line-footer .right-tab-button .second-line-footer {
+          margin-left: 48px;
           display: flex;
           justify-content: flex-start; }
+          footer .footer .first-line-footer .right-tab-button .second-line-footer .three {
+            margin-left: 0 !important; }
           footer .footer .first-line-footer .right-tab-button .second-line-footer div {
-            margin-left: 40px; }
+            margin-left: 40px;
+            display: none; }
             footer .footer .first-line-footer .right-tab-button .second-line-footer div.active {
               display: block; }
           footer .footer .first-line-footer .right-tab-button .second-line-footer span {
@@ -3814,3 +3821,240 @@ footer {
         color: #999; }
         footer .footer .third-line-footer .bottom-right span {
           margin-left: -18px; }
+
+.vacantion-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+  z-index: 10;
+  padding: 20px; }
+  .vacantion-header a {
+    position: relative; }
+    .vacantion-header a img {
+      display: inline-block;
+      width: 154px;
+      height: 53px; }
+
+.sticky {
+  height: 80px;
+  background-color: white;
+  box-shadow: -4px -5px 10px 0 black; }
+
+#vacancies {
+  padding: 120px 0 40px; }
+
+.AllVacancies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .AllVacancies .left-AV {
+    width: calc(45% - 40px); }
+    .AllVacancies .left-AV h1 {
+      padding: 0 0 32px;
+      font-size: 32px;
+      line-height: 1.29;
+      font-weight: bold;
+      letter-spacing: 0.01em;
+      color: #222; }
+    .AllVacancies .left-AV p {
+      padding: 0 0 20px;
+      font-size: 18px;
+      line-height: 1.56;
+      color: #5F6773; }
+      .AllVacancies .left-AV p a {
+        color: #0e80e5; }
+  .AllVacancies .right-AV img {
+    width: 460px; }
+
+#MoreVacancies {
+  padding: 100px 0;
+  background: #F6F8FE; }
+
+.All-vacancies {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 30px 30px; }
+  .All-vacancies .vacan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    padding: 40px 20px;
+    background: #fff;
+    border: 1px solid #ff931e;
+    border-radius: 4px;
+    width: 533px;
+    height: 146px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #222;
+    text-align: center;
+    transition: 0.15s; }
+    .All-vacancies .vacan:hover {
+      background-color: #ff931e;
+      color: white; }
+
+#footer-end {
+  background-color: black;
+  min-height: 1px;
+  padding: 34px 0 34px; }
+  #footer-end .end-footer {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between; }
+    #footer-end .end-footer .botom-left p {
+      padding: 0 10px 0 0;
+      font-size: 12px;
+      line-height: 2.67;
+      color: #fff;
+      display: inline-block; }
+    #footer-end .end-footer .botom-left a {
+      display: inline-block;
+      padding: 0 0 0 30px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 2.67;
+      color: #fff;
+      text-decoration: none;
+      position: relative; }
+      #footer-end .end-footer .botom-left a::before {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("/assets/img/jis_logo.svg") no-repeat 0 0;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 10px); }
+    #footer-end .end-footer .botom-right {
+      width: calc(100% - 360px);
+      font-size: 16px;
+      line-height: 1.5;
+      color: #999; }
+      #footer-end .end-footer .botom-right span {
+        margin-left: -18px; }
+
+#BG-header {
+  height: 300px;
+  padding: 0 0 70px;
+  background-color: #0C0D26;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-image: url("/assets/img/vacancies_header_bg.svg"); }
+  #BG-header .blue-bg a img {
+    margin-top: 25px;
+    display: inline-block;
+    width: 154px;
+    height: 53px; }
+  #BG-header .blue-bg h1 {
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.29;
+    letter-spacing: 0.01em;
+    color: #fff; }
+
+#main-news {
+  min-height: 600px;
+  padding: 20px 0 20px; }
+  #main-news .second-AN {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    #main-news .second-AN a {
+      text-decoration: none; }
+    #main-news .second-AN .AN-box {
+      width: 330px;
+      margin: 40px 0 0 30px;
+      position: relative; }
+      #main-news .second-AN .AN-box img {
+        margin: 0 0 24px;
+        font-size: 0;
+        border-radius: 6px;
+        overflow: hidden;
+        position: relative;
+        width: 100%; }
+      #main-news .second-AN .AN-box h3 {
+        padding: 0 0 20px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.75;
+        color: #222; }
+      #main-news .second-AN .AN-box span {
+        font-size: 18px;
+        line-height: 1.33;
+        color: #5F6773; }
+
+#main-OB {
+  padding: 100px 0;
+  background: #F6F8FE; }
+
+.all-branches {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .all-branches .brc {
+    margin: 15px 15px;
+    width: 30%;
+    min-height: 410px;
+    padding: 40px 40px 40px;
+    border: 1px solid #E6E6E6;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 40px);
+    background-position-y: calc(100% - 40px);
+    border-radius: 4px; }
+    .all-branches .brc h2 {
+      padding: 0 0 32px;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 1.5;
+      letter-spacing: 0.01em;
+      color: #ff931e; }
+    .all-branches .brc span {
+      padding: 0 0 8px;
+      font-size: 14px;
+      line-height: 1.71;
+      color: #99A3B2;
+      display: block; }
+    .all-branches .brc p {
+      min-height: 72px;
+      padding: 0 0 24px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #000; }
+    .all-branches .brc a {
+      color: #000;
+      text-decoration: none;
+      font-weight: 600; }
+      .all-branches .brc a:hover {
+        text-decoration: underline; }
+  .all-branches .branch-1 {
+    background-image: url("/assets/img/branchs-img/netherlands_map.svg"); }
+  .all-branches .branch-2 {
+    background-image: url("/assets/img/branchs-img/azerbaycan_map.svg"); }
+  .all-branches .branch-3 {
+    background-image: url("/assets/img/branchs-img/singapore_map.svg"); }
+  .all-branches .branch-4 {
+    background-image: url("/assets/img/branchs-img/russia_map.svg"); }
+  .all-branches .branch-5 {
+    background-image: url("/assets/img/branchs-img/hungary_map.svg"); }
+  .all-branches .branch-6 {
+    background-image: url("/assets/img/branchs-img/nigeria_map.svg"); }
+  .all-branches .branch-7 {
+    background-image: url("/assets/img/branchs-img/ghana_map.svg"); }
+  .all-branches .branch-8 {
+    background-image: url("/assets/img/branchs-img/sierraleone_map.svg"); }
+  .all-branches .branch-9 {
+    background-image: url("/assets/img/branchs-img/uzbekistan_map.svg"); }

@@ -1,0 +1,155 @@
+
+.vacantion-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    z-index: 10;
+    padding: 20px;
+   
+    a{
+       
+        position: relative;
+         img{
+             display: inline-block;
+             width: 154px;
+             height: 53px;
+           
+            
+         }
+     }
+}
+.sticky{
+    height: 80px;
+   
+    background-color: white;
+    
+    box-shadow: -4px -5px 10px 0 black;
+
+}
+
+#vacancies{
+    padding: 120px 0 40px;
+}
+.AllVacancies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left-AV{
+        width: calc(45% - 40px);
+        h1{
+            padding: 0 0 32px;
+            font-size: 32px;
+            line-height: 1.29;
+            font-weight: bold;
+            letter-spacing: 0.01em;
+            color: #222;
+        }
+        p{
+            padding: 0 0 20px;
+            font-size: 18px;
+            line-height: 1.56;
+            color: #5F6773;
+            a{
+               color: #0e80e5;
+            }
+        }
+    }
+    .right-AV{
+        img{
+            width: 460px;
+        }
+    }
+}
+#MoreVacancies{
+    padding: 100px 0;
+    background: #F6F8FE;
+}
+.All-vacancies{
+    display: flex;
+        flex-wrap: wrap;
+        grid-gap: 30px 30px;
+    .vacan{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+        padding: 40px 20px;
+        background: #fff;
+        border: 1px solid $main-orange;
+        border-radius: 4px;
+        width: 533px;
+        height: 146px;
+        text-decoration: none;
+        font-weight: bold;
+            font-size: 24px;
+            line-height: 1.4;
+            letter-spacing: 0.01em;
+            color: #222;
+            text-align: center; 
+            transition: 0.15s;
+        &:hover{
+            background-color: $main-orange;
+            color: white;
+
+        }
+    }
+}
+#footer-end{
+    background-color: black;
+    min-height: 1px;
+    padding: 34px 0 34px;
+    .end-footer{
+    
+        width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    .botom-left{
+        p{
+            padding: 0 10px 0 0;
+             font-size: 12px;
+            line-height: 2.67;
+            color: #fff;
+            display: inline-block;
+        }
+        a{
+            display: inline-block;
+             padding: 0 0 0 30px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 2.67;
+            color: #fff;
+            text-decoration: none;
+            position: relative;
+            &::before{
+                content: "";
+                display: block;
+                width: 20px;
+                height: 20px;
+                background: url("/assets/img/jis_logo.svg") no-repeat 0 0;
+                position: absolute;
+                left: 0;
+                top: calc(50% - 10px);
+            }
+        }
+    }
+    .botom-right{
+        width: calc(100% - 360px);
+        font-size: 16px;
+        line-height: 1.5;
+        color: #999;
+        span{
+            margin-left: -18px;
+        }
+
+}
+    
+    }
+
+}

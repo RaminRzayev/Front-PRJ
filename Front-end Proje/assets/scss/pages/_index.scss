@@ -605,6 +605,7 @@ nav{
              border-radius: 12px;
              display: inline-block;
              height: 60px;
+             cursor: pointer;
              padding: 0 100px 0 24px;
              font-weight: 600;
              font-size: 15px;
@@ -648,6 +649,7 @@ nav{
              padding: 0 100px 0 24px;
              font-weight: 600;
              font-size: 15px;
+             cursor: pointer;
              line-height: 56px;
              background: url("/assets/img/link_orange_icon.svg")no-repeat calc(100% - 24px) 50%;
              transition: all 0.15s;
@@ -762,6 +764,7 @@ footer{
                      padding: 0 100px 0 24px;
                      font-weight: 600;
                      font-size: 15px;
+                     cursor: pointer;
                      line-height: 56px;
                      background: url("/assets/img/link_orange_icon.svg")no-repeat calc(100% - 24px) 50%;
                      transition:0.15s;
@@ -776,12 +779,15 @@ footer{
                 }
             }
             .second-line-footer{
-                // margin-left: 48px;
+                margin-left: 48px;
                 display: flex;
                 justify-content: flex-start;
+                .three{
+                    margin-left: 0 !important;
+                }
                 div{
                     margin-left: 40px;
-                    // display: none;
+                    display: none;
                     &.active{
                         display: block;
                     }

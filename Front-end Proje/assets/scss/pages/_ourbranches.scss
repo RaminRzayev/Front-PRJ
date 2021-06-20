@@ -1,0 +1,82 @@
+#main-OB{
+    padding: 100px 0;
+    background: #F6F8FE;
+
+}
+.all-branches{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .brc{
+        margin: 15px 15px;
+        width: 30%;
+        min-height: 410px;
+        padding: 40px 40px 40px;
+        border: 1px solid #E6E6E6;
+        background: #fff;
+        background-repeat: no-repeat;
+        background-position-x: calc(100% - 40px);
+        background-position-y: calc(100% - 40px);
+        border-radius: 4px;
+        h2{
+            padding: 0 0 32px;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 1.5;
+            letter-spacing: 0.01em;
+            color: $main-orange;
+        }
+        span{
+            padding: 0 0 8px;
+            font-size: 14px;
+            line-height: 1.71;
+            color: #99A3B2;
+            display: block;
+        }
+        p{
+            min-height: 72px;
+            padding: 0 0 24px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #000;
+        }
+        a{
+            color: #000;
+            text-decoration: none;
+            font-weight: 600;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .branch-1{
+        background-image: url("/assets/img/branchs-img/netherlands_map.svg");
+        
+    }
+    .branch-2{
+        background-image: url("/assets/img/branchs-img/azerbaycan_map.svg");
+    }
+    .branch-3{
+        background-image: url("/assets/img/branchs-img/singapore_map.svg");
+    }
+    .branch-4{
+        background-image: url("/assets/img/branchs-img/russia_map.svg");
+    }
+    .branch-5{
+        background-image: url("/assets/img/branchs-img/hungary_map.svg");
+    }
+    .branch-6{
+        background-image: url("/assets/img/branchs-img/nigeria_map.svg");
+    }
+    .branch-7{
+        background-image: url("/assets/img/branchs-img/ghana_map.svg");
+    }
+    .branch-8{
+        background-image: url("/assets/img/branchs-img/sierraleone_map.svg");
+    }
+    .branch-9{
+        background-image: url("/assets/img/branchs-img/uzbekistan_map.svg");
+    }
+}
